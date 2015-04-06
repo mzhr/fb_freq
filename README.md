@@ -1,4 +1,4 @@
-# FB Messenger Frequency Grapher
+# Facebook Analyser
 
 A small python script to graph frequency of posts.
 
