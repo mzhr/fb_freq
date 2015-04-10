@@ -7,7 +7,7 @@ Currently listing;
  - Time of Week,
  - Time of Year.
 
-## Depenencies
+## Dependencies
 
  - python2.7
  - numpy
