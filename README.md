@@ -20,9 +20,9 @@ After that run the script.
 
 ## Example Graph
 
-![alt text](https://github.com/mzhr/fb_analyser/blob/master/messages_times.png "Daily Graph")
-![alt text](https://github.com/mzhr/fb_analyser/blob/master/messages_days.png "Weekly Graph")
-![alt text](https://github.com/mzhr/fb_analyser/blob/master/messages_month.png "Yearly graph")
+![alt text](https://github.com/mzhr/fb_analyse/blob/master/messages_times.png "Daily Graph")
+![alt text](https://github.com/mzhr/fb_analyse/blob/master/messages_days.png "Weekly Graph")
+![alt text](https://github.com/mzhr/fb_analyse/blob/master/messages_month.png "Yearly graph")
 
 ## Licence
 
