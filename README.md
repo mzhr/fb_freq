@@ -1,6 +1,6 @@
 # Facebook Analyser
 
-A small python script to graph frequency of posts.
+A small python script to graph frequency of messages.
 
 Currently listing;
  - Time of Day,
