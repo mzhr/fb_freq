@@ -81,7 +81,6 @@ def messages(n_groups, bar_width, x_lim, items, names,
 	fig, ax = pyplot.subplots()
 	index = numpy.arange(n_groups)
 	rects1 = pyplot.bar(index, items, bar_width)
-
 	
 	# Add texts and lables.
 	pyplot.xlabel(x_label)
