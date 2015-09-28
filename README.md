@@ -1,4 +1,4 @@
-# Facebook Analyser
+# FB Freq
 
 A small python script to graph frequency of messages.
 
@@ -9,8 +9,8 @@ Currently listing;
 
 ## Dependencies
 
- - python2.7
- - numpy
+ - python 2 or 3
+ - numpy 
  - matplotlib
 
 ## Running
@@ -20,11 +20,12 @@ After that run the script.
 
 ## Example Graph
 
-![alt text](https://github.com/mzhr/fb_analyse/blob/master/messages_times.png "Daily Graph")
-![alt text](https://github.com/mzhr/fb_analyse/blob/master/messages_days.png "Weekly Graph")
-![alt text](https://github.com/mzhr/fb_analyse/blob/master/messages_month.png "Yearly graph")
+![alt text](https://github.com/mzhr/fb_analyse/blob/master/example_graphs.png "Example Graphs")
 
 ## Licence
+
+This script uses the MIT Licence. The license is shown below and the licence
+can also be viewed in the directories LICENSE.md file.
 
 THE MIT License (MIT)
 

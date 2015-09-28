@@ -1,7 +1,14 @@
-from HTMLParser import HTMLParser
+import sys
 import re
 import numpy
 from matplotlib import pyplot
+
+# Choose correct html parser library
+version = sys.version_info.major
+if version == 2:
+	from HTMLParser import HTMLParser
+else:
+	from html.parser import HTMLParser
 
 ### Initialize Data Structures ###
 
@@ -51,7 +58,11 @@ for i in range(len(time_names)):
 # Parse Data while adding to data arrays with regex.
 class MessagesParser(HTMLParser):
 	def handle_data(self, data):
-		match = re.search("(Saturday|Sunday|Monday|Tuesday|Wednesday|Thursday|Friday)(,) [0-9]{2} (January|February|March|April|May|June|July|August|September|October|November|December) [0-9]{4} at [0-9]{2}:[0-9]{2}", data)
+		match = re.search(
+			"(Saturday|Sunday|Monday|Tuesday|Wednesday|Thursday|Friday)(,) " \
+			"[0-9]{2} (January|February|March|April|May|June|" \
+			"July|August|September|October|November|December) " \
+			"[0-9]{4} at [0-9]{2}:[0-9]{2}", data)
 		if match:
 			for i in range(12):
 				if re.search(month_names[i], match.group(0)):
